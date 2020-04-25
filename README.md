@@ -12,8 +12,9 @@ More importantly than that, however, the repository can be used as a tutorial/bl
 | `test.py`                               | Unit tests to help debug code.                                              |
 | `numbers.txt`, `numbers_binomial.txt`   | Data files used as part of the unit tests.                                  |
 
+## Instructions
 
-To install this package using pip, navigate to the folder that contains the repository source files and run
+To install this package using pip, clone this repository, navigate to the folder that contains the repository source files and then run
 
 ```
 pip install .
