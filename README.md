@@ -20,7 +20,7 @@ To install this package using pip, clone this repository, navigate to the folder
 pip install .
 ```
 
-If you have already installed the package but need to make changes and then update the package run
+If you have already installed the package but need to make changes and then update the package, run
 
 ```
 pip install --upgrade .
