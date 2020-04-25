@@ -7,8 +7,7 @@ More importantly than that, however, the repository can be used as a tutorial/bl
 
 | File/folder                             | Description                                                                 |
 |-----------------------------------------|-----------------------------------------------------------------------------|
-| `distributions`                         | Contains the code for the distributions package including
-                                            Generaldistribution.py, Gaussiandistribution.py and Binomialdistribution.py |
+| `distributions`                         | Contains the code for the distributions package including Generaldistribution.py, Gaussiandistribution.py and Binomialdistribution.py |
 
 
 To install this package using pip, navigate to the folder that contains the repository source files and run
