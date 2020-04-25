@@ -40,9 +40,9 @@ python -m unittest test
 
 Take a look at the test.py file which contains some example unit tests if you want to create a new package.
 
-### Upload the package to PyPi (https://pypi.org/)
+### Upload the package to PyPi (https://pypi.org/, https://test.pypi.org/)
 
-When you run ```pip install [package-name]``` you are downloading and installing files from PiPy. Anyone can upload files to PiPy. PiPy has a test as well as a regular repository. First upload your package to the rest repository to make sure everything works as expected, then you can upload the package to the regular repository. If the package is in the regular repository, anyone can download it.
+When you run ```pip install [package-name]``` you are downloading and installing files from PiPy. Anyone can upload files to PiPy. PiPy has a test as well as a regular repository. First upload your package to the rest repository to make sure the download works as expected, then you can upload the package to the regular repository. If the package is in the regular repository, anyone can download it.
 
 To upload files to PyPi, you first need to create accounts for the pypi test repository and pypi repository. Note that pypi.org and test.pypy.org are two different websites. You'll need to register separately at each website. 
 
@@ -51,9 +51,25 @@ You also need some additional files in your source code:
 - license.txt
 - setup.cfg
 
-Then enter your terminal and go to your source code.
+See the source files for details what they should contain
 
-Every package on PyPi needs a unique name.
+Then enter your terminal, go to your source code and enter the following commands:
 
+```
+python setup.py sdist
+pip install twine
+```
+
+- Uploading to the PyPi test repository and installing from there
+```
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+pip install --index-url https://test.pypi.org/simple/ stats_distributions_utils
+```
+
+- Uploading to the PyPi regular repository and installing from there
+```
+twine upload dist/*
+pip install stats_distributions_utils
+```
 
 
