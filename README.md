@@ -1,5 +1,5 @@
 # Python Package: Stats_Distributions_Utils
-This repository contains my (statistical) distributions python package which has APIs to easily work with Gaussian and Binomial distributions.
+This repository contains my stats distributions utils python package which has APIs to easily work with Gaussian and Binomial distributions.
 
 More importantly than that, the repository can be used as a tutorial/blueprint for building a new Python package using pip and uploading it to PyPi (Python Package Index).
 
