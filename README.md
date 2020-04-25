@@ -3,6 +3,14 @@ This repository contains my distributions python package which has APIs to easil
 
 More importantly than that, however, the repository can be used as a tutorial/blueprint for building a new Python package.
 
+## Contents
+
+| File/folder                             | Description                                                                 |
+|-----------------------------------------|-----------------------------------------------------------------------------|
+| `distributions`                         | Contains the code for the distributions package including
+                                            Generaldistribution.py, Gaussiandistribution.py and Binomialdistribution.py |
+
+
 To install this package using pip, navigate to the folder that contains the repository source files and run
 
 ```
