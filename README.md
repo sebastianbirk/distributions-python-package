@@ -12,3 +12,9 @@ If you have already installed the package but need to make changes and then upda
 ```
 pip install --upgrade .
 ```
+
+To run the unit tests type
+
+```
+python -m unittest test
+```
