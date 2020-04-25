@@ -1,5 +1,6 @@
 # Python Package: Distributions
 This repository contains my distributions python package which has APIs to easily work with Gaussian and Binomial distributions.
+More importantly than that, however, it can be used as a tutorial how to build your own Python package.
 
 To install this package using pip, navigate to the folder that contains the repository source files and run
 
