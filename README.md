@@ -14,6 +14,8 @@ More importantly than that, the repository can be used as a tutorial/blueprint f
 
 ## Instructions
 
+### Install the package using pip
+
 To install the distributions package using pip, clone this repository, navigate to the folder that contains the repository source files and then run
 
 ```
@@ -28,13 +30,15 @@ If you have already installed a package but need to make changes and then update
 pip install --upgrade .
 ```
 
+### Run and build unit tests
+
 To run the unit tests type
 
 ```
 python -m unittest test
 ```
 
-Take a look at the test.py file which is used for running unit tests if you want to create a new package.
+Take a look at the test.py file which contains some example unit tests if you want to create a new package.
 
 ### Uploading the package to PyPi
 
